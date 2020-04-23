@@ -20,6 +20,17 @@ export const Form = styled.form<FormProps>`
 
   display: flex;
 
+  @media only screen and (max-width: 550px) {
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+
+    input {
+      height: 70px;
+      padding: 0 24px;
+    }
+  }
+
   input {
     flex: 1;
     height: 70px;
@@ -38,6 +49,13 @@ export const Form = styled.form<FormProps>`
 
     &::placeholder {
       color: #a8a8b3;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    button {
+      width: 100% !important;
+      margin-top: 16px;
     }
   }
 
@@ -102,12 +120,31 @@ export const Repositories = styled.div`
     strong {
       font-size: 20px;
       color: #3d3d4d;
+      transition: all 0.2s ease-in-out;
     }
 
     p {
       font-size: 18px;
       color: #a8a8e3;
       margin-top: 4px;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  @media only screen and (max-width: 732px) {
+    div {
+      margin: 0 16px;
+      flex: 1;
+
+      strong {
+        font-size: 18px;
+        color: #3d3d4d;
+      }
+
+      p {
+        font-size: 16px;
+        color: #a8a8e3;
+        margin-top: 4px;
+      }
     }
   }
 
