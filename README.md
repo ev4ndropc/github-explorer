@@ -44,8 +44,12 @@ Clone o reposítório com o comando abaixo:
 
 <code>git clone https://github.com/ev4ndropc/github-explorer.git</code>
 
+Entre na pasta
+<code>cd github-explorer</code>
+
 Instale as dependências
 <code>yarn</code>
+
 
 Rode o projeto com o comando
 <code>yarn start</code>
