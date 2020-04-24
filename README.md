@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img alt="Página de Dados" src=".github/video2.mp4" width="100%">
+  <img alt="Página de Dados" src=".github/gif2.gif" width="100%">
 </p>
 
 ## :rocket: Tecnologias
@@ -52,7 +52,7 @@ Rode o projeto com o comando
 
 ## ⚙️ Estrutura
 
-<code>
+```bash
 ├─ .editorconfig
 ├─ .eslintignore
 ├─ .eslintrc.json
@@ -85,7 +85,7 @@ Rode o projeto com o comando
 │     └─ global.ts
 ├─ tsconfig.json
 └─ yarn.lock
-</code>
+```
 ---
 
 Feito com ♥ by Evandro Pinheiro :wave: <a href="mailto:e_sayto@hotmail.com">Contato</a>
